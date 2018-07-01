@@ -1,0 +1,30 @@
+/*Selector{
+	Property; value;
+}*/
+
+body{
+	background-image: url(backgroundImg.jpg);
+	background-size: cover;
+}
+
+h2{
+	color: #213883;
+	text-align: center;
+	/*rgba sets the last field to opacity*/
+	border: 5px solid rgba(0, 10, 44, 0.5);
+	cursor: pointer;
+}
+
+p{
+	color: pink;
+}
+
+/*since css is cascading, it will use the last selector*/
+p{
+	color: green;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
