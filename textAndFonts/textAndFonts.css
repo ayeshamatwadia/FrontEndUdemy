@@ -1,0 +1,13 @@
+p {
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "Times New Roman"
+}
+
+h1 {
+	font-family: 'Slabo 27px', serif;
+}

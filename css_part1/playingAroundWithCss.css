@@ -3,7 +3,7 @@
 }
 
 h1 {
-	color: red;
+	color: red !important;
 	background-color: orange;
 }
 
