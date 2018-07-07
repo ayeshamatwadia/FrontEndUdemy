@@ -1,0 +1,8 @@
+img {
+	float: left;
+}
+
+/*this is used to make sure the footer isnt floated to right by the image*/
+footer {
+	clear: both;
+}
