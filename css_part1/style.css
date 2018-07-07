@@ -2,12 +2,21 @@
 	Property; value;
 }*/
 
+* {
+	text-align: right;
+}
+
 body{
 	background-image: url(backgroundImg.jpg);
 	background-size: cover;
 }
 
-h2{
+h2 p:hover {
+	color: purple;
+	text-align: right;
+}
+
+h2, p{
 	color: #213883;
 	text-align: center;
 	/*rgba sets the last field to opacity*/
@@ -27,4 +36,24 @@ p{
 li{
 	list-style: none;
 	display: inline-block;
+}
+
+.webtext:last-child {
+	border: 5px dashed green;
+}
+
+.webtext1:first-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color: orange;
+}
+
+#div1{
+	background-color: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background-color: rgba(0, 255, 0, 0.2);	
 }
