@@ -1,0 +1,28 @@
+.circle {
+	margin: 50px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;	
+}
+
+.circle:hover {
+	transform: scale(2);
+}
+
+.circle1 {
+	background-color: #063D6F;
+	transition: all 300ms;
+}
+
+.circle2 {
+	background-color: #1F629E;
+	transition: all 1s;
+}
+
+
+
+.circle3 {
+	background-color: #01203B;
+	transition: all 3s;
+}

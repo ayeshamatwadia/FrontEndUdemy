@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+.TransformNoTransition {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 50px;  
+	background-color: blue;
+}
+
+.TransformNoTransition:hover{
+	transform: scale(2);
+}
+
+.transformWithTransition {	
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 50px;  
+	background-color: red;	
+	transition: all 1s;
+}
+
+.transformWithTransition:hover{
+	transform: scale(2);
+}
+
