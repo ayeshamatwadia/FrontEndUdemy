@@ -25,7 +25,18 @@ body {
 }
 
 h1{
-	font-family: 'Permanent Marker', cursive;
-	color: white;
+	font-family: 'Lobster';
+	color: #C2EFEB;
 	font-size: 40px;
+}
+
+.button {
+  background-color: #41337A;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
