@@ -1,6 +1,36 @@
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-columns: (auto-fill, minmax(200px, 1fr)); */
+    grid-template-rows: 1fr;
+    /* grid-template-columns: 300px 300px 300px; */
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    /* you can use a fr - fraction instead of px or percentages to
+       get a more responsive grid
+    */
+    /* grid-template-columns: 1fr 1fr 2fr; */
+    /* we can also define rows */
+    /* we can use the repeat function to repeat the grid template */
+    /* we can use the auto to fill the amount of space given */
+    /* grid-template-columns: auto 1fr 2fr; */
+    /* justify items property - default is stretch aligned to rows */
+    /* justify-items: end; */
+    /* align items relates to the content for a column */
+    /* align-items: baseline; */
+    /* making it 100 responsive */  
+}
+
+.green {
+  /* what if you want to target an item and you don't want it to be symetrical */
+  grid-column-start: 1;
+  /* -1 means the end, ie span the entire area */
+  grid-column-end: -1;   
+}
+
 .zone {
     cursor:pointer;
-    display:inline-block;
+    /* display:inline-block; */
     text-align: center;
     font-size:10em;
     border-radius:4px;
