@@ -3,7 +3,13 @@
 // 1. Prompts the user for first number.
 // 2. Stores that first number
 // 3. Prompts the user for the second number.
-// 4. stores that number and responds with the SUM by using an alert.  
+// 4. stores that number and responds with the SUM by using an alert.
 
+var first = prompt("What is your first number?");
+var second = prompt("What is your last number?");
+var sum = Number(first) + Number(second);
+alert(sum); 
 
 // BONUS: Make a program that can subtract, multiply, and also divide!
+
+// This is the same as above except with a different operation applied in the sum calc
