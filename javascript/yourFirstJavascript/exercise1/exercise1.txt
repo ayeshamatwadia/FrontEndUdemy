@@ -6,31 +6,54 @@
 
 //Evaluate the below:
 5 + "34"
+expectation 534 actual 534
 5 - "4"
+expectation 1 actual 1
 10 % 5
+expectation 0 actual
 5 % 10
+expectation 10 actual 5
 "Java" + "Script"
+expectation JavaScript actual JavaScript
 " " + " "
+expectation " " actual "  "
 " " + 0
+expectation " 0" actual " 0"
 true + true
+expectation true actual 2
 true + false
+expectation 1 actual 1 
 false + true
+expectation 1 actual 1
 false - true
+expectation -1 actual -1
 3 - 4
+expectation -1 actual -1
 "Bob" - "bill"
+expectation NaN actual NaN
 
 
 //Evaluate the below comparisons:
 5 >= 1
+expectation true actual true
 0 === 1
+expectation false actual false
 4 <= 1
+expectation false actual false
 1 != 1
+expectation false actual false
 "A" > "B"
+expectation NaN actual false
 "B" < "C"
+expectation true actual true
 "a" > "A"
+expectation false actual true
 "b" < "A"
+expectation false actual false
 true === false
+expectation false actual false
 true != true
+expectation false actual false
 
 
 // Make the string: "Hi There! It's "sunny" out" by using the + sign:
