@@ -2,6 +2,18 @@ var database = [
     {
         name:"ayesha",
         password:"test",
+    },
+    {
+        name:"bob",
+        password:"test2",
+    },
+    {
+        name:"sally",
+        password:"test3",
+    },
+    {
+        name:"Nosh",
+        password:"test5",
     }
 ];
 
@@ -23,13 +35,21 @@ var newsFeed = [
 var userNameFromPrompt = prompt("What is your userName");
 var passwordFromPrompt = prompt("Please enter your password");
 
+function isUserValid(user, pass) {
+    for(var i =0; i< database.length; i++){
+     if(user === database[i].name && pass === database[i].password){
+         return true;
+     }
+    }
+    return false;
+};
+
 function loginAndViewFeed(user, pass){
-    if((user === database[0].name) && (pass === database[0].password)){
-        console.log(newsFeed);
-    }
-    else{
-        console.log("you failed to login");
-    }
+    if(isUserValid(user, pass)){
+       console.log(newsFeed);
+   } else{
+       alert("sorry invalid user");
+   }
 };
 
 loginAndViewFeed(userNameFromPrompt, passwordFromPrompt)
