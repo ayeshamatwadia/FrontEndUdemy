@@ -20,12 +20,16 @@ var newsFeed = [
     },
 ]
 
-var userName = prompt("What is your userName");
-var password = prompt("Please enter your password");
+var userNameFromPrompt = prompt("What is your userName");
+var passwordFromPrompt = prompt("Please enter your password");
 
-if((userName === database[0].name) && (password === database[0].password)){
-    console.log(newsFeed);
-}
-else{
-    console.log("you failed to login");
-}
+function loginAndViewFeed(user, pass){
+    if((user === database[0].name) && (pass === database[0].password)){
+        console.log(newsFeed);
+    }
+    else{
+        console.log("you failed to login");
+    }
+};
+
+loginAndViewFeed(userNameFromPrompt, passwordFromPrompt)
