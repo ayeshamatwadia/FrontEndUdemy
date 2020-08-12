@@ -2,6 +2,13 @@ var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
+var generatorButton = document.getElementsByClassName("generator")[0];
+
+
+document.addEventListener("DOMContentLoaded", function(){
+	setGradient();
+});
+
 
 function setGradient() {
 	body.style.background = 
@@ -17,3 +24,9 @@ function setGradient() {
 color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
+
+generatorButton.addEventListener("click", function(){
+	color1.value = '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
+	color2.value = '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
+	setGradient();	
+});
