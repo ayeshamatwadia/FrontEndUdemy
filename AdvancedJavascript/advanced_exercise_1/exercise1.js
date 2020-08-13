@@ -8,6 +8,7 @@ function q1() {
     }
     alert(a);
 }
+var answer1=3;
 
 //#2
 var a = 0;
@@ -19,6 +20,7 @@ function q22() {
     alert(a);
 }
 
+var answer1=0;
 
 //#3
 function q3() {
@@ -30,12 +32,16 @@ function q32() {
     alert(a);
 }
 
+var answer1="hello";
+
 //#4
 var a = 1;
 function q4() {
     var a = "test";
     alert(a);
 }
+
+var answer1="test";
 
 //#5
 var a = 2;
@@ -44,3 +50,6 @@ if (true) {
     alert(a);
 }
 alert(a);
+
+var answer1=5;
+var answer1=2;
