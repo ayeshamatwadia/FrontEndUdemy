@@ -1,1 +1,1 @@
-# FrontEndUdemy course that I am currently working on to upskill myself on front-end
+A front end repository around basic html css and javascript
