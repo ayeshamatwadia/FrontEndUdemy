@@ -15,3 +15,7 @@ https://api.chucknorris.io/
 https://pokeapi.co/
 
 http://open-notify.org/Open-Notify-API/ISS-Location-Now/
+
+# a fun debugging game
+
+https://play.elevatorsaga.com/
