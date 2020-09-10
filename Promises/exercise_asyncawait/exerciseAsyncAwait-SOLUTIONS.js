@@ -32,7 +32,7 @@ const getData = async function () {
 
 const getData = async function () {
   const [users, posts, albums] = await Promise.all(
-    urls.map(async function (url) {
+    urls.map((url) => async function (url) {
       const response = await fetch(url);
       return response.json();
     }),
